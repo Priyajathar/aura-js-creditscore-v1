@@ -6,6 +6,7 @@ build:
         name: A step that executes `npm install` command
         code: npm install  
 
+
 push-image-to-wcr:
   steps:
     # Push docker image to your docker container registry repo i.e. wercker container releases (wcr or just CR)
